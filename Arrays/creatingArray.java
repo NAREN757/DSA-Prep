@@ -1,5 +1,6 @@
 import java.util.*;
 public class creatingArray{
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int marks[] = new int[20];
@@ -8,5 +9,6 @@ public class creatingArray{
         marks[1]=sc.nextInt();
         System.out.println(mark[2]);
         System.out.println(marks.length);
+        sc.close();
     }
 }
