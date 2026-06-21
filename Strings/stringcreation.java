@@ -31,5 +31,6 @@ public class stringcreation {
         System.out.println(fullname.length());
 
         charprint(fullname);
+        sc.close();
     }
 }
