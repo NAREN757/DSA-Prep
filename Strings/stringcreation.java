@@ -7,6 +7,7 @@ public class stringcreation {
         }
         System.out.println();
     }
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) { 
 
         // declaring an String
